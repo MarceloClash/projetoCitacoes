@@ -13,7 +13,7 @@ body {
 h1 {
   text-align: center;
   font-size: 3rem;
-  color: #000;
+  color: #897a7a;
   margin-top: 30px;
   text-transform: capitalize;
   background-color: transparent;
@@ -22,7 +22,7 @@ h1 {
   box-shadow: 0 7px 14px rgb(99 99 99 / 50%), 0 -7px 14px rgb(99 99 99 / 50%);
 }
 h1:hover{
-  color:  #fff;
+  color:  #000;
 }
 #quote {
   font-size: 1.5rem;

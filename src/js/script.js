@@ -92,6 +92,6 @@ function getRandomQuote() {
 function printQuote(citação) {
   document.getElementById(
     "quote"
-  ).innerText = `🙶${citação.texto} 🙷  - ❝${citação.autor}❞`;
+  ).innerHTML = `"${citação.texto}" <br>   "${citação.autor}"`;
 }
 window.onload = getRandomQuote;
